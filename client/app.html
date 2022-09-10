@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Cost Living Predictor</title>
+        <script src="app.js"></script>
+        <link rel="stylesheet" href="app.css" />
+        <link rel="shortcut icon" href="#" />
+    </head>
+    <body>
+        <h1 class="heading">Cost of Living Index Predictor</h1>
+        <div class="container">
+            <form id="frm" class="form">
+                <h2>Rent</h2>
+                <input
+                    class="area"
+                    type="text"
+                    id="rentIndex"
+                    class="floatLabel"
+                    name="rent"
+                    placeholder="Rent Index"
+                />
+                <h2>Groceries</h2>
+                <input
+                    class="area"
+                    type="text"
+                    id="groceriesIndex"
+                    class="floatLabel"
+                    name="groceries"
+                    placeholder="Groceries Index"
+                />
+                <h2>Restaurant</h2>
+                <input
+                    class="area"
+                    type="text"
+                    id="restaurantIndex"
+                    class="floatLabel"
+                    name="restaurant"
+                    placeholder="Restaurant Price Index"
+                />
+                <h2>Local Purchasing</h2>
+                <input
+                    class="area"
+                    type="text"
+                    id="localIndex"
+                    class="floatLabel"
+                    name="local_purchasing"
+                    placeholder="Local Purchasing Power Index"
+                />
+                <button
+                    class="submit"
+                    onclick="onClickedEstimatePrice()"
+                    type="button"
+                >
+                    Estimate
+                </button>
+                <div id="uiEstimatedPrice" class="result">
+                    <h2 id="predicted">Estimated Cost of Living Index</h2>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
