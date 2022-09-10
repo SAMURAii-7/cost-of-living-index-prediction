@@ -27,9 +27,6 @@ function onClickedEstimatePrice() {
                     "<h2>" + response.estimated_coi.toString() + "</h2>")
         )
         .catch((err) => console.error(err));
-
-    const form = document.getElementById("frm");
-    form.reset();
 }
 
 function formReset() {
