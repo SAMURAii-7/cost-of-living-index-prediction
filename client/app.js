@@ -6,7 +6,7 @@ function onClickedEstimatePrice() {
     var local_purchasing = document.getElementById("localIndex");
     var estPrice = document.getElementById("uiEstimatedPrice");
 
-    var url = "http://127.0.0.1:5000/predict";
+    var url = "https://cost-of-living-index-api.herokuapp.com/predict";
 
     const options = {
         method: "POST",
