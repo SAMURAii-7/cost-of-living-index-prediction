@@ -31,10 +31,7 @@ function onClickedEstimatePrice() {
 
 function formReset() {
     const form = document.getElementById("frm");
-    const estPrice = document.getElementById("uiEstimatedPrice");
-
     form.reset();
-    estPrice.reset();
 }
 
 window.onload = formReset;
