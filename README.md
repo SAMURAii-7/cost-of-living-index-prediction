@@ -3,3 +3,6 @@
 ``` cd server ``` to go inside the server directory\
 ``` pip install -r requirements.txt ``` to install required packages for server directory\
 ``` python server.py ``` to run the flask server
+
+# Flask API
+[Hosted on Render](https://cost-of-living-index-api.onrender.com)
