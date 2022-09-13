@@ -14,6 +14,7 @@ def predict_coi(rent_ind, groceries_ind, rp_ind, ppi_ind):
 
 
 def get_cols():
+    load_saved_artifacts()
     return __data_columns
 
 
