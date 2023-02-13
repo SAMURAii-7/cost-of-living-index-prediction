@@ -6,7 +6,7 @@ function onClickedEstimatePrice() {
     var local_purchasing = document.getElementById("localIndex");
     var estPrice = document.getElementById("uiEstimatedPrice");
 
-    var url = "https://blr-house-price-predictor-api.up.railway.app/predict";
+    var url = "https://cost-of-living-index-prediction-production.up.railway.app/predict";
 
     const options = {
         method: "POST",
